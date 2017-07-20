@@ -1,0 +1,12 @@
+<li class="event-entry hidden">
+  <div class="collapsible-header"><i class="material-icons">{{icon}}</i>{{title}} | {{app}}</div>
+  <div class="collapsible-body">
+    <div><h5>Event: {{title}} ({{app}})</h5></div>
+    <div class="icon-element"><i class="material-icons">account_circle</i>{{user}}</div>
+    <span class="icon-element"><i class="material-icons">map</i>{{location_string}} <a href="{{location_url}}" target="_blank"><i class="material-icons">open_in_new</i></a></span>
+    <hr>
+    <div>Json data:</div>
+    <blockquote>{{#json}}{{.}}<br>{{/json}}</blockquote>
+    <div>Timestamp: {{timestamp}}</div>
+  </div>
+</li>

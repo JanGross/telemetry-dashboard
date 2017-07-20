@@ -1,0 +1,44 @@
+nav, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  nav, main, footer {
+    padding-left: 0;
+  }
+}
+.top-toast-container {
+  bottom: auto !important;
+  right: auto !important;
+  top: 0;
+  
+}
+.top-toast {
+  margin-top: 0;
+}
+
+.loading-wrapper {
+  width: 100%;
+}
+.chart-div {
+  min-height: 200px;
+  width: 100%;
+}
+.icon-element {
+  line-height: 25px;
+}
+.icon-element .material-icons {
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.red {
+  color: red;
+  background-color: red;
+}
+.hidden {
+  display:none;
+}
+
+.modal.bottom-sheet {
+  max-height: 70% !important;
+}
